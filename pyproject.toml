@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "berryriver-compilerfuse_jd041"
+name = "berryriver-canary_release_rollback_threshold_scan"
 version = "0.1.0"
 description = "为每一项打分并与阈值比较，明确标出通过、边界与不通过三档"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://berryriver.github.io"
-Repository = "https://github.com/berryriver/compilerfuse_jd041"
-Issues = "https://github.com/berryriver/compilerfuse_jd041/issues"
+Repository = "https://github.com/berryriver/canary_release_rollback_threshold_scan"
+Issues = "https://github.com/berryriver/canary_release_rollback_threshold_scan/issues"
 
 [project.scripts]
-compilerfuse_jd041 = "compilerfuse_jd041:main"
+canary_release_rollback_threshold_scan = "canary_release_rollback_threshold_scan:main"
 
 [tool.setuptools]
-py-modules = ["compilerfuse_jd041"]
+py-modules = ["canary_release_rollback_threshold_scan"]

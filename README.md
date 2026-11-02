@@ -1,11 +1,11 @@
-# compilerfuse_jd041
+# canary_release_rollback_threshold_scan
 
 **给编译器与算子融合专家·灰度发布与版本回滚打分并按阈值给出通过与否。**
 
-`compilerfuse_jd041` —— 为每一项打分并与阈值比较，明确标出通过、边界与不通过三档
+`canary_release_rollback_threshold_scan` —— 为每一项打分并与阈值比较，明确标出通过、边界与不通过三档
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`compilerfuse_jd041.py` 拷走就能用
+- 单文件，`canary_release_rollback_threshold_scan.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install berryriver-compilerfuse_jd041
+pip install berryriver-canary_release_rollback_threshold_scan
 ```
 
 装完直接用命令名调用：
 
 ```bash
-compilerfuse_jd041 --help
+canary_release_rollback_threshold_scan --help
 ```
 
-也可以不用安装，直接把 `compilerfuse_jd041.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `canary_release_rollback_threshold_scan.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ compilerfuse_jd041 --help
 ## 用法
 
 ```bash
-python compilerfuse_jd041.py --file input.txt
-python compilerfuse_jd041.py --text "示例内容"
-python compilerfuse_jd041.py --file input.txt --json
+python canary_release_rollback_threshold_scan.py --file input.txt
+python canary_release_rollback_threshold_scan.py --text "示例内容"
+python canary_release_rollback_threshold_scan.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python compilerfuse_jd041.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_compilerfuse_jd041.py
+python test_canary_release_rollback_threshold_scan.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_compilerfuse_jd041.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/berryriver/compilerfuse_jd041>
+- GitHub 仓库：<https://github.com/berryriver/canary_release_rollback_threshold_scan>
 
 ---
 
@@ -79,7 +79,7 @@ python test_compilerfuse_jd041.py
 berryriver 做编译器与算子融合专家·灰度发布与版本回滚相关的问题，方向对标智谱AI的初级编译器与算子融合专家岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://berryriver.github.io>
-- 仓库：<https://github.com/berryriver/compilerfuse_jd041>
+- 仓库：<https://github.com/berryriver/canary_release_rollback_threshold_scan>
 
 ## 许可
 
